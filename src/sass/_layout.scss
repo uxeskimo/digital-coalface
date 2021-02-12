@@ -1,11 +1,13 @@
 // stylelint-disable-next-line selector-max-type
 body {
   display: flex;
+
   flex-direction: column;
   min-height: 100vh;
   background-color: tdbc-color("background");
   color: $tdbc-color-body;
   font-family: $tdbc-font-family;
+  background-color: red!important;
 }
 
 // stylelint-disable selector-max-type, selector-no-qualifying-type
